@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.blog {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.blog:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 30px rgb(81, 81, 81);
+}
